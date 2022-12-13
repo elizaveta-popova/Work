@@ -1,9 +1,8 @@
 public class Employee {
+    private int id;
     private String name;
     private int department;
     private int salary;
-
-    private int sum;
     public Employee (String name, int department, int salary) {
         this.name = name;
         this.department = department;

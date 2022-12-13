@@ -1,14 +1,4 @@
 public class EmployeeService {
-
-    private String name;
-    private int department;
-    private int salary;
-    public EmployeeService (String name, int department, int salary) {
-        this.name = name;
-        this.department = department;
-        this.salary = salary;
-    }
-
     //Получить список всех сотрудников.
 
     public static void printAllEmployees (Employee [] employees) {
